@@ -2,6 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 project(TRACKER)
 
 set(CMAKE_CXX_STANDARD 14)
+set (CMAKE_EXPORT_COMPILE_COMMANDS on)
 
 #ASAN flags
 #set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -fsanitize=address -fsanitize=leak -fno-omit-frame-pointer -g")
